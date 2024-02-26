@@ -24,6 +24,10 @@ view: products {
 
   dimension: category {
     type: string
+    link: {
+      label: "Category Link"
+      url: "https://www.google.com/webhp"
+      }
     sql: ${TABLE}.category ;;
   }
 
